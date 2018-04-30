@@ -23,7 +23,7 @@ Please skip this section if you are sure you have the Java Development Kit insta
 To check existence of the JDK (open your command prompt or terminal console) :
 
 ```
-    javac --version
+    javac -version
 ```
 
 If Java is not pre-installed on your machine, please download and install the JDK from http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html.
