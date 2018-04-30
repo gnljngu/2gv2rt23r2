@@ -41,6 +41,12 @@ On Windows 10 and Windows 8, after installation, proceed to make the java utitil
 
 Maven is the default build management tool for this project. Please skip this section if you already have Maven installed.
 
+Make sure you can execute the Maven program: 
+
+```
+    mvn -v
+```
+
 Install Maven by downloading the latest package from https://maven.apache.org/download.cgi
 
 Proceed to extract the package into the directory location of your choice:
