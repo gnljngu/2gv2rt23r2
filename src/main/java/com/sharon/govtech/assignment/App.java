@@ -429,13 +429,13 @@ public class App
         Scanner scanner = new Scanner(System.in);
         try {
             while (true) {
-                System.out.println("Please enter starting date and end date in format (mmm-yyyy) separated by space (e.g. Jan-2017 Dec-2017)");
-                String line = scanner.nextLine();
-                
+                System.out.println("Please enter starting date and end date in format (mmm-yyyy) separated by space (e.g. Jan-2017 Dec-2017)");   
                 //exit program if user presses 'e'	
                 if (scanner.hasNext("e")) {
 	        		System.exit(0);
 	        	}
+
+	        	String line = scanner.nextLine();
                 String[] inputs = line.trim().split(" ");
                 
                 //get formatted dates from user input
