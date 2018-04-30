@@ -182,37 +182,6 @@ Edit the pom.xml so the file looks like this. We have made some changes to the d
 <a name="running-program"></a>
 ## Building and running the program ##
 
-Make sure you can execute the Maven program: 
-
-```
-    mvn -v
-```
-
-The result should look similar to
-
-```
-    Apache Maven 3.5.3 (138edd61fd100ec658bfa2d307c43b76940a5d7d; 2017-10-18T08:58:13+01:00)
-    Maven home: /opt/apache-maven-3.5.3
-    Java version: 1.8.0_45, vendor: Oracle Corporation
-    Java home: /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre
-    Default locale: en_US, platform encoding: UTF-8
-    OS name: "mac os x", version: "10.8.5", arch: "x86_64", family: "mac"
-```
-
-If you have installed Maven but cannot execute the mvn command, you have to add the bin directory of directory apache-maven-3.5.3 to the PATH environment variable:
-
-```
-    export PATH=/directory/path/to/maven/bin:$PATH
-```
-
-To build the program, we will need to download the project assets from a Github repository.
-
-Make sure you have Git installed by executing the following command in your command prompt / terminal. If Git is not already installed on your system, please download and install it from https://git-scm.com/downloads/.
-
-```
-    git --version
-```
-
 Open your command line and change to a directory of your preference.
 
 On Mac OS X, you can use your home directory: /Users/user-name
@@ -220,8 +189,8 @@ On Mac OS X, you can use your home directory: /Users/user-name
 To download a copy of the project assets : 
 
 ```
-    git clone https://github.com/however12345/pushed-pork
-    cd pushed-pork
+    git clone https://github.com/gnljngu/2gv2rt23r2
+    cd 2gv2rt23r2
 ```
 
 Maven is based around the central concept of a build lifecycle, consisting of various phases. 
