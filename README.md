@@ -67,6 +67,12 @@ On MAC OS X: Add the bin directory of the created directory apache-maven-3.5.3 t
     export PATH=/directory/path/to/maven/bin:$PATH
 ```
 
+for example
+
+```
+    export PATH=/Users/username/apache-maven-3.5.3/bin:$PATH
+```
+
 On Windows 10 and Windows 8:
 
 1. In Search, search for 'Environment Variables'
