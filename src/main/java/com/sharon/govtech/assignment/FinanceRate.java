@@ -1,6 +1,6 @@
 package com.sharon.govtech.assignment;
 
-/** Represents a set of finance rates 
+/** Represents a set of finance rates and contains multiple Rate objects
 *
 * @author  Tan Yee Ping Sharon
 * @version 1.0
